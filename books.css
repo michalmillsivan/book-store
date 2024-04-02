@@ -1,0 +1,33 @@
+.body {
+    background-image: url(background.jpeg);
+}
+
+.header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: rgb(176, 174, 168, 0.5);
+    margin: 10px;
+}
+
+.book-card {
+    padding: 10px;
+    background-color: rgb(176, 174, 168, 0.5);
+    /* border: 1px dotted orange; */
+    /*display: flex;*/
+    margin: 10px;
+    /*justify-content: space-between;*/
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    /* border: 5px;
+    border-color: rgb(218, 210, 202); */
+}
+
+.booksList {
+display: flex;
+/* flex-direction: column; */
+flex-wrap: wrap;
+justify-content: space-between;
+/* max-width: 800px; */
+margin: 0 auto;
+}
